@@ -10,7 +10,7 @@ echo "Building libsodium"
 # Go into the lib sodium directory
 cd res/libsodium
 if [ ! -f libsodium-1.0.16.tar.gz ]; then
-    wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.16.tar.gz
+    wget https://download.libsodium.org/libsodium/releases/old/libsodium-1.0.16.tar.gz
 fi
 
 if [ ! -d libsodium-1.0.16 ]; then
